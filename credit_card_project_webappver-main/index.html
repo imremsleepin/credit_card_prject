@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Card Processor App</title>
+</head>
+<body>
+    <p>This is my test app</p>
+
+    <form id="payment-form">
+        <input type="text" id="card-number" placeholder="Card Number" required>
+        <input type="text" id="card-expiry" placeholder="MM/YY" required>
+        <input type="text" id="card-cvc" placeholder="CVC" required>
+      
+        <button type="submit">Submit Payment</button>
+    </form>
+    
+    
+    <script src="https://js.stripe.com/v3/"></script>
+    <script src="script.js"></script>
+    <!-- <script src="testexamples.js"></script> -->
+
+
+    <script>
+    
+    var stripe = Stripe('API PUBLISHABLE KEY'); 
+       
+    </script>
+
+</body>
+</html>
